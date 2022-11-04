@@ -1,0 +1,15 @@
+input_data_path: "../data/raw/Employee-Attrition.csv"
+output_encoder_path: "../models/encoder.pkl"
+output_scaler_path: "../models/scaler.pkl"
+output_model_path: "../models/model.pkl"
+metric_path: "../data/metrics/metrics.json"
+splitting_params:
+  test_size: 0.2
+  random_state: 1
+train_params:
+  model_type: "LogisticRegression"
+  random_state: 1
+  solver: "liblinear"
+  penalty: "l2"
+  C: 10
+threshold: 0.25
