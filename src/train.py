@@ -22,6 +22,7 @@ def train_processing(config_path: str = "../config/train_config.yaml"):
     """
     Transform data, train and evaluate model and store the artifacts.
     :param config_path: training parameters
+
     :return: nothing
 
     """
