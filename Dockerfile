@@ -1,4 +1,4 @@
-FROM python:3.8.12-slim
+FROM python:3.11.0
 
 WORKDIR /user/app
 COPY requirements-deploy.txt ./requirements.txt
