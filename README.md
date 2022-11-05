@@ -151,4 +151,4 @@ Heroku automatically assigns porn number from the dynamic pool. So, there is no 
 7. Terminal: run the `heroku container:push web -a predict-attrition-docker` command to push docker image to Heroku.
 8. Terminal: release the container using the command `heroku container:release web -a predict-attrition-docker`.
 9. Launch your app by clicking on generated URL in 5th step. In our case the link - [Heroku app](https://predict-attrition-docker.herokuapp.com/).
-10. Testing: change host parameter in line to https://predict-attrition-docker.herokuapp.com/ and run [Request sender](src/request_sender.py)
+10. Testing: change host parameter in 27 line to 'predict-attrition-docker.herokuapp.com' and run [Request sender](src/request_sender.py)
