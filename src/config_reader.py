@@ -5,7 +5,9 @@ def read_config(config_path: str) -> dict:
     """
     Reads config from .yaml file.
     :param config_path: path to .yaml file to load from
+
     :return: configuration dictionary
+
     """
     with open(config_path, "rb") as f_in:
         config = yaml.safe_load(f_in)
@@ -16,6 +18,7 @@ def parse_config(config: dict) -> dict:
     """
     Parses the configuration dictionary.
     :param config: configuration dictionary
+
     :return: configuration parameters
     """
     params = dict()

@@ -26,8 +26,7 @@ app = Flask('attrition_prediction')
 
 @app.get('/')
 def main():
-    return 'Welcome to the Job Shifting prediction webservice!'
-
+    return 'Welcome to the Employee Attrition prediction webservice!'
 
 
 @app.route('/predict', methods=['POST'])

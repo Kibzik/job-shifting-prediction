@@ -6,9 +6,10 @@ from time import sleep
 
 def send_requests(host: str = "localhost:5050", dataset_path=None) -> None:
     """
-    Generates a list of requests from the file and sends it to the host.
+    Generates requests from the file and sends it to the host.
     :param host: hostname:port or URL address
     :param dataset_path: dataset_path to data to generate request
+
     :return: none
 
     """

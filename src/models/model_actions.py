@@ -14,6 +14,7 @@ def train_model(
     :param features: features to train on
     :param target: target labels to train on
     :param training_params: training parameters
+
     :return: save model via pickle
 
     """
@@ -38,7 +39,8 @@ def predict_model(model, features: pd.DataFrame, training_params: dict) -> [np.n
     Makes predictions using model.
     :param model: the model to predict with
     :param features: the features to predict on
-    :return: pipeline predictions
+
+    :return: List[bool prediction, prob prediction]
 
     """
     predict_probes = model.predict_proba(features)[:, 1]
@@ -51,7 +53,7 @@ def evaluate_model(target: pd.Series, predicts: np.array) -> dict:
     Evaluates model predictions and returns the metrics.
     :param target: actual target labels
     :param predicts: pipeline hard predictions
-    :param predict_probes: pipeline soft predictions
+
     :return: a dict of metrics in format {'metric_name': value}
 
     """
