@@ -8,7 +8,7 @@
    * [Virtual Environment](#virtual-environment)
    * [Run Service Locally](#run-service-locally)
    * [Docker Container](#docker-container)
-   * [Deploying to Cloud](#deploying-to-cloud)
+   * [Deploying to Cloud](#deploying-to-cloudheroku-docker-deployment)
 
 ## Problem Description
 
