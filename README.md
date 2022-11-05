@@ -99,8 +99,10 @@ The objective of the problem is to predict Employee Churn / Employee Attrition v
 - Python
 - Scikit-learn
 - Machine Learning Pipeline
+- Flask
+- Virtual environment
 - Docker
-- Streamlit
+- Heroku
 
 ## Setup
 
