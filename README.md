@@ -145,7 +145,7 @@ Also you can pull out an already built image from [Dockerhub](https://hub.docker
 Follow this steps to deploy the app to Heroku
 1. Register on [Heroku](https://signup.heroku.com/) and install Heroku CLI.
 2. Open the terminal in project of the app
-3. Terminal: rung the `heroku login` command to log in to Heroku.
+3. Terminal: run the `heroku login` command to log in to Heroku.
 4. Terminal: login to Heroku container registry using `heroku container:login` command.
 5. Terminal: create a new app in Heroku with the following command `heroku create predict-attrition-docker`.
 6. Make small changes in [`Dockerfile`](Dockerfile): uncomment the last line and comment out the line above. 
