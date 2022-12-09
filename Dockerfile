@@ -10,5 +10,5 @@ COPY src/employee_description.py ./src/employee_description.py
 COPY predict.py ./
 
 EXPOSE 5050
-#ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:5050", "predict:app"]
 ENTRYPOINT ["gunicorn", "predict:app"]
+#ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:5050", "predict:app"]
